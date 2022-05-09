@@ -29,10 +29,11 @@ body {
     }
 
     header .Logo{
+        margin-left: 5px;
         color: var(--vermelho);
         font-family: 'Arial Black', Times;
         font-size:40px;
-        margin-left: 5px;
+        
     }
 
     header nav a{
@@ -81,7 +82,6 @@ body {
         margin-right: 15px;
         margin-bottom: 10px;
         font-size: 12px;
-
         cursor: pointer;
         transition: .3s ease all;
         
@@ -106,5 +106,9 @@ body {
     .box-filme{
         height: 100%;
         width: 100%;
-        display: block;
+        display: block;      
+    }
+
+    .carrosel-filmes{
+        margin-top: 5px;
     }
